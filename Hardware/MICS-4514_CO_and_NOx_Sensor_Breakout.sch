@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5766,7 +5766,7 @@ High-power, low thermal resistance package.</description>
 <part name="Q2" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="BSS138">
 <attribute name="P_NAME" value="BSS138"/>
 </part>
-<part name="JP2" library="SparkFun-Connectors" deviceset="M05" device="LOCK"/>
+<part name="JP1" library="SparkFun-Connectors" deviceset="M05" device="LOCK"/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R3" library="SparkFun-Resistors" deviceset="100OHM1/10W1%(0603)" device="" value="100"/>
@@ -5816,7 +5816,7 @@ High-power, low thermal resistance package.</description>
 <attribute name="NAME" x="109.22" y="99.06" size="1.778" layer="95"/>
 <attribute name="P_NAME" x="109.22" y="96.52" size="1.778" layer="96"/>
 </instance>
-<instance part="JP2" gate="G$1" x="30.48" y="114.3" rot="MR180"/>
+<instance part="JP1" gate="G$1" x="30.48" y="114.3" rot="MR180"/>
 <instance part="SUPPLY4" gate="G$1" x="53.34" y="114.3"/>
 <instance part="GND5" gate="1" x="53.34" y="104.14"/>
 <instance part="R3" gate="G$1" x="86.36" y="96.52"/>
@@ -5857,7 +5857,7 @@ High-power, low thermal resistance package.</description>
 <wire x1="215.9" y1="121.92" x2="215.9" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="G$1" pin="4"/>
+<pinref part="JP1" gate="G$1" pin="4"/>
 <wire x1="38.1" y1="111.76" x2="53.34" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="111.76" x2="53.34" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="G$1" pin="5V"/>
@@ -5888,7 +5888,7 @@ High-power, low thermal resistance package.</description>
 <wire x1="215.9" y1="111.76" x2="215.9" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="G$1" pin="5"/>
+<pinref part="JP1" gate="G$1" pin="5"/>
 <wire x1="38.1" y1="109.22" x2="53.34" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="109.22" x2="53.34" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
@@ -5935,14 +5935,14 @@ High-power, low thermal resistance package.</description>
 <pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="G$1" pin="2"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="116.84" x2="40.64" y2="116.84" width="0.1524" layer="91"/>
 <label x="40.64" y="116.84" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VRED" class="0">
 <segment>
-<pinref part="JP2" gate="G$1" pin="3"/>
+<pinref part="JP1" gate="G$1" pin="3"/>
 <wire x1="38.1" y1="114.3" x2="40.64" y2="114.3" width="0.1524" layer="91"/>
 <label x="40.64" y="114.3" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -5958,7 +5958,7 @@ High-power, low thermal resistance package.</description>
 </net>
 <net name="PRE" class="0">
 <segment>
-<pinref part="JP2" gate="G$1" pin="1"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="119.38" x2="40.64" y2="119.38" width="0.1524" layer="91"/>
 <label x="40.64" y="119.38" size="1.27" layer="95" xref="yes"/>
 </segment>
